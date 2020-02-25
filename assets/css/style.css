@@ -1,0 +1,49 @@
+body {
+    background-image: url(../../assets/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 0 10%;
+	/*float: left;*/
+}
+
+button.answerchoice {
+    display: none;
+   /* text-align: left;*/
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 200px;
+    width: auto;
+    padding: 10px;
+    margin-left: 400px;
+  
+    
+}
+
+h1 {
+    font-family: 'Kaushan Script', ;
+    text-align: center;
+    color: antiquewhite;
+}
+
+h2, h3, .question {
+    text-align: center;
+    font: bolder;
+    color: antiquewhite;
+    
+}
+
