@@ -7,13 +7,13 @@ body {
 button {
 	width: 80%;
 	height: 40px;
-	margin: 0 10%;
-	/*float: left;*/
+    margin: 0 5%;
+   
 }
 
 button.answerchoice {
     display: none;
-   /* text-align: left;*/
+  
 }
 
 button:hover {
@@ -27,9 +27,9 @@ button:hover {
 
 img {
 	height: 200px;
-    width: auto;
-    padding: 10px;
-    margin-left: 400px;
+    width: 500px;
+    padding: 35px;
+    margin-left: 550px;
   
     
 }
