@@ -164,6 +164,7 @@ function setup() {
 }		
 
 function getAnswer() {
+	
 
 //  nextQuestion();
 	$('.answerchoice').on('click', function() {
@@ -177,12 +178,20 @@ function getAnswer() {
 		$("#buttonD").text('');
 		loadQuestion();
 	})
+	
 }
 
 function answerCorrect() {
+	if (countdownTimer.time !== 0){
+		console.log(countdownTimer)
+	
 	correct++;
 	alert("Correct!");
 	console.log("correct");
+	}
+	else {
+		answerIncorrect();
+	}
 }
 
 function answerIncorrect() {
@@ -202,7 +211,12 @@ function showScore() {
 
 setup();
 $('.answerchoice').on('click', function() {
- console.log($(this));
+
+	console.log($(this));
+	if(countdownTimer == 0){
+		answerIncorrect();
+	}
+   
  if(this.id == 'buttonA') {
  	var answerChosen = 'A';
  } else if(this.id == 'buttonB') {
@@ -232,7 +246,7 @@ if ((answerChosen == 'D') && (questionArray[index].flags[3] == true)) {
  } else if (answerChosen == 'D') {
  	answerIncorrect();
  }
-
+ 
  $(".question").text('');
  $("#buttonA").text('');
  $("#buttonB").text('');

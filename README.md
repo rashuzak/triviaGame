@@ -16,7 +16,11 @@ OverView  Game rules:
 
 .You have 30 seconds to answer each of the question before time runs out.
 
-.When the game ends, your corret and incorrect score will be displayed for you.
+.An 'Alert' will pop up to tell you if your choice is correct or not.
+
+.Click on the 'OK' to go to the next question.
+
+.When the game ends, your correct and incorrect score will be displayed for you.
 
 
 
