@@ -1,0 +1,17 @@
+* {
+    text-align: center;
+    color: blue;
+  }
+
+  .container {
+    text-align: center;
+    color: blue;
+  }
+
+  #gifs {
+      width: 110px;
+      height: 110px;
+      padding: 53px;
+      float: left;
+  }
+
